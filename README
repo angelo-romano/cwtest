@@ -1,0 +1,10 @@
+cwtest folder is the one containing the requested modules.
+
+>> cwtest.types: container for the two classes who implement the algorithm.
+  >> cwtest.types.Rover: a class defining a rover
+  >> cwtest.types.RoversHandler: a class defining a handler for all rovers, who receives input from outside as lines
+     and processes it accordingly.
+>> cwtest.tests: container for all tests related to the algorithm. The test case defined there is the one described in the mail.
+
+To run unit tests, I used "nosetests" under a virtualenv I created using "mkvirtualenv", under the condition that requirements
+are installed (the only one needed is actually nose itself).
